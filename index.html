@@ -6,8 +6,8 @@
     <title>Martínez Remesas y Taxis</title>
     <!-- Iconos de FontAwesome para un diseño moderno y limpio -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<link rel="stylesheet" href="/assent/css/estilo.css">
- 
+    <link rel="stylesheet" href="/assent/css/estilo.css">
+   
 </head>
 <body>
 
@@ -70,7 +70,7 @@
                         <div style="display: flex; align-items: center; gap: 10px; border-top: 1px solid var(--border-color); padding-top: 12px;">
                             <div style="width: 32px; height: 32px; border-radius: 50%; background-color: #22c55e; color: white; display: flex; align-items: center; justify-content: center; font-size: 0.8rem;">RM</div>
                             <div style="text-align: left;">
-                                <p style="font-size: 0.8rem; font-weight: 700;">Rody Martinez</p>
+                                <p style="font-size: 0.8rem; font-weight: 700;">Rody Martínez</p>
                                 <p style="font-size: 0.7rem; color: var(--text-muted);">Operación Completada</p>
                             </div>
                         </div>
@@ -95,10 +95,10 @@
                 <div class="service-card">
                     <div class="service-img-wrapper">
                         <!-- Imagen de Chevrolet clásico antiguo cubano convertible rojo (Daniel Seßler Unsplash) -->
-                        <img src="/assent/img/chevrollet.webp" 
+                        <img src="/assent/img/carro.jfif" 
                              alt="Chevrolet antiguo cubano para servicio de taxi" 
                              class="service-img" 
-                             onerror="this.src='https://images.unsplash.com/photo-1514539079130-25950c84af65?q=80&w=800&auto=format&fit=crop'">
+                             onerror="this.src='/assent/img/carro.jfif'">
                         <span class="service-tag tag-taxi">
                             <i class="fa-solid fa-car"></i> Servicio de Taxi
                         </span>
@@ -158,9 +158,9 @@
                     <div class="about-img-frame">
                         <!-- Utilizando el archivo subido por el usuario verbatim -->
                         <img src="/assent/img/rody.jpg" 
-                             alt="Rody Martinez Cobas" 
+                             alt="Rody Martínez Cobas" 
                              class="about-img"
-                             onerror="this.src='https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop'">
+                             onerror="this.src='/assent/img/rody.jpg'">
                     </div>
                     <div class="about-badge">
                         <h4>100%</h4>
@@ -202,7 +202,7 @@
         <div class="container">
             <div class="section-header">
                 <h2>Ponte en contacto</h2>
-                <p>Estaremos encantados de atenderte en cualquiera de nuestras vías de comunicación directas y sería una satisfacción servirte</p>
+                <p>Estaremos encantados de atenderte en cualquiera de nuestras vías de comunicación directas</p>
             </div>
 
             <div class="contact-grid">
@@ -230,13 +230,13 @@
                     </a>
 
                     <!-- Correo -->
-                    <a href="mailto:rodymartinezcobas@gmail.com" class="contact-card">
+                    <a href="mailto:rodyMartínezcobas@gmail.com" class="contact-card">
                         <div class="contact-icon-box icon-gmail">
                             <i class="fa-regular fa-envelope"></i>
                         </div>
                         <div class="contact-details">
                             <h4>Correo Gmail</h4>
-                            <p>rodymartinezcobas@gmail.com</p>
+                            <p>rodyMartínezcobas@gmail.com</p>
                         </div>
                     </a>
 
@@ -247,7 +247,7 @@
                         </div>
                         <div class="contact-details">
                             <h4>Dirección Particular</h4>
-                            <p>Ave 55 entre 62 y 64 # 6229</p>
+                            <p>Ave 55 entre 62 y 64 #6229</p>
                         </div>
                     </div>
                 </div>
@@ -257,7 +257,7 @@
                     <form id="direct-msg-form" onsubmit="event.preventDefault(); submitForm();">
                         <div class="form-group">
                             <label class="form-label" for="form-name">Nombre Completo</label>
-                            <input type="text" id="form-name" class="form-input" placeholder="Ej. Rody Martínez" required>
+                            <input type="text" id="form-name" class="form-input" placeholder="Ej. Juan Pérez" required>
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="form-msg">¿En qué podemos ayudarte?</label>
@@ -285,7 +285,7 @@
                 <a href="https://www.facebook.com/rody.martinezcobas" target="_blank" class="social-link fb" aria-label="Visitar Facebook">
                     <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="https://instagram.com" target="_blank" class="social-link ig" aria-label="Visitar Instagram">
+                <a href="https://www.instagram.com/martinezcobasrody" target="_blank" class="social-link ig" aria-label="Visitar Instagram">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
             </div>
@@ -317,7 +317,7 @@
             
             <div class="chat-messages" id="chat-messages-container">
                 <div class="message incoming">
-                    ¡Hola! Gracias por visitarnos. Soy Rody Martinez. ¿Deseas cotizar el envío de una remesa o coordinar un viaje en nuestro taxi clásico?
+                    ¡Hola! Gracias por visitarnos. Soy Rody Martínez. ¿Deseas cotizar el envío de una remesa o coordinar un viaje en nuestro taxi clásico?
                 </div>
             </div>
 
@@ -336,7 +336,9 @@
         </button>
     </div>
 
-  <script src="/assent/script/scritp.js"></script>
-
+    <!-- ==========================================
+         CÓDIGO DE INTERACCIÓN (JAVASCRIPT)
+         ========================================== -->
+    <script src="/assent/script/script.js"></script>
 </body>
 </html>
